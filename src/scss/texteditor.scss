@@ -1,0 +1,37 @@
+.text-editor{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    .editor-title{
+        margin: 0;
+        padding: 10px;
+        border-bottom: 1px solid rgb(238, 238, 238);
+        font-size: 22px;
+        font-weight: bold;
+        color: rgb(90, 90, 90);
+    }
+    input.editor-title{
+        border: none;
+        box-shadow: none;
+    }
+    .content{
+        height: 100%;
+    }
+    .description{
+        padding: 10px;
+        margin: 0;
+        color: rgb(134, 134, 134);
+        box-sizing: border-box;
+    }
+    
+    textarea.description{
+        border: none;
+        display: block;
+        margin: 0;
+        width: 100% !important;
+        min-height: 100%;
+        resize: none;
+        background: rgb(233, 233, 233);
+    }
+}

@@ -1,0 +1,22 @@
+.App{
+    $b-pad: 20px; // border padding
+    background-color: white;
+    // height: 90vh;
+    overflow: auto;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgba(black, 0.3);
+    border-radius: 10px;
+    @media screen and (min-width: 600px){
+        max-width: 700px;
+        margin: 20px auto;
+    }
+    header{
+        background-color: #1dcd9f;
+        color: #fcfcfc;
+        padding-left: $b-pad;
+        padding-right: $b-pad;
+        h1{
+            padding: 10px 0;
+        }
+    }
+}

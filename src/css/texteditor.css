@@ -1,0 +1,30 @@
+.text-editor {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100%; }
+  .text-editor .editor-title {
+    margin: 0;
+    padding: 10px;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 22px;
+    font-weight: bold;
+    color: #5a5a5a; }
+  .text-editor input.editor-title {
+    border: none;
+    box-shadow: none; }
+  .text-editor .content {
+    height: 100%; }
+  .text-editor .description {
+    padding: 10px;
+    margin: 0;
+    color: #868686;
+    box-sizing: border-box; }
+  .text-editor textarea.description {
+    border: none;
+    display: block;
+    margin: 0;
+    width: 100% !important;
+    min-height: 100%;
+    resize: none;
+    background: #e9e9e9; }
